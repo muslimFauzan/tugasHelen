@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#content{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 75%;
+    height: 97vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#table-wrapper {
+    position:relative;
+    margin-top: 40px;
+  }
+  #table-scroll {
+    height:293px;
+    overflow:auto;  
+    margin-top:20px;
+  }
+  #table-wrapper table {
+    width:100%;
+  }
+
+  #table-wrapper table th{
+    border-bottom: 0.5px solid grey;
+    border-top: 0.5px solid grey;
+    height: 35px;
+  }
+  
+  #table-wrapper table td{
+    border-bottom: 0.5px solid grey;
+    border-top: 0.5px solid grey;
+    height: 35px;
+  }
+  
+  #table-wrapper table thead th .text {
+    position:absolute;   
+    top:-20px;
+    z-index:2;
+    height:20px;
+    width:35%;
+  }
+
+  .submit{
+    width: 60px;
+    margin-left: 15px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: green;
+    cursor: pointer;
+  }
+
+  .submit:hover{
+    background-color: rgba(0, 128, 0, 0.858);
+  }
+
+  .addBtn{
+    width: 50px;
+    margin-left: 15px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: green;
+    cursor: pointer;
+  }
+
+  .addBtn:hover{
+    background-color: rgba(0, 128, 0, 0.858);
+  }
+
+  .editBtn{
+    /* width: 50px; */
+    height: 15px;
+    padding: 3px 3px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(3, 161, 3);
+    cursor: pointer;
+  }
+
+  .editBtn:hover{
+    background-color: rgba(0, 128, 0, 0.858);
+  }
+
+  .hapusBtn{
+    /* width: 50px; */
+    height: 15px;
+    padding: 3px 3px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(233, 16, 16);
+    cursor: pointer;
+  }
+
+  .hapusBtn:hover{
+    background-color: rgba(233, 16, 16, 0.789);
+  }
+
+  .addItem{
+    width: 50px;
+    margin-left: 15px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(23, 0, 128);
+    cursor: pointer;
+  }
+
+  .addItem:hover{
+    background-color: rgb(23, 0, 128, 0.858);
+  }
+
+  .form-container{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+  }
+
+  .wrapper-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .backBtn{
+    margin-top: 10px;
+    width: 50px;
+    margin-left: 15px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(189, 6, 6);
+    cursor: pointer;
+  }
+
+  .backBtn:hover{
+    background-color: rgba(189, 6, 6, 0.816);
+  }
+
+  .input-form{
+    margin-bottom: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input-kolom{
+    width: 250px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
